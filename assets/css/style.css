@@ -1065,6 +1065,7 @@ input {
     right: -100%;
     padding: 3.5rem 2rem;
     transition: .4s;
+    overflow: scroll;
 }
 
 .cart__title-center {
