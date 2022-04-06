@@ -193,7 +193,7 @@ input {
 
 .nav__list {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     column-gap: 2rem;
 }
 
