@@ -1769,8 +1769,8 @@ input {
     }
 
     .footer__container {
-        grid-template-columns: 1fr;
-        row-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
         justify-content: start;
     }
     
@@ -1872,5 +1872,12 @@ input {
 
     .product__images {
         grid-template-columns: 1fr;
+    }
+
+    
+    .footer__container {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+        justify-content: start;
     }
 }
