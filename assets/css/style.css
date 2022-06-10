@@ -1410,97 +1410,13 @@ input {
 
 
 /*=============== STYLE SWITCHER ===============*/
-.style__switcher {
-    position: fixed;
-    top: 26%;
-    right: 0;
-    width: 200px;
-    background-color: var(--container-color);
-    padding: 1rem;
-    box-shadow: -0.5px 0.5px 4px var(--shadow);
-    border-radius: 0.2rem;
-    transform: translateX(100%);
-    z-index: var(--z-tooltip);
-    transition: .3s;
-}
 
-.style__switcher .s__icon {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    font-size: 1.25rem;
-    color: var(--title-color);
-    background-color: var(--container-color);
-    right: 100%;
-    top: 0;
-    cursor: pointer;
-    border-radius: 50%;
-    line-height: 45px;
-    margin-right: 1.8rem;
-}
-
-.style__switcher h4 {
-    margin-bottom: var(--mb-1);
-    color: var(--title-color);
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    text-transform: capitalize;
-}
-
-.style__switcher .theme__colors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.style__switcher .theme__colors button {
-    height: 30px;
-    width: 30px;
-    position: relative;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.style__switcher .theme__colors button i {
-    color: #fff;
-    font-size: 1.25rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-
-.style__switcher .color-1 {
-    background-color: hsl(0, 88%, 61%);
-}
-
-.style__switcher .color-2 {
-    background-color: hsl(260, 88%, 61%);
-}
-
-.style__switcher .color-3 {
-    background-color: hsl(336, 88%, 61%);
-}
-
-.style__switcher .color-4 {
-    background-color: hsl(284, 88%, 61%);
-}
-
-.style__switcher .color-5 {
-    background-color: hsl(375, 88%, 61%);
-}
 
 /* Style switcher open */
-.style__switcher.open {
-    transform: translateX(-10px);
-}
+
 
 /* Active theme color */
-.style__switcher .theme__colors button.active i {
-    display: block;
-}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
